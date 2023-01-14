@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="header">
+        <h1>APPLICATION METEO</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Entrez votre ville">
+            <button id="search" onclick="searchByCity()">Recherche</button></input>
+        </div>
+    </div>
+
+    <main>        
+        <div class="weather">
+            <h2 id="city">DOLISIE,IN</h2>
+            <div class="temp-box">
+                <img src="weathericon.png" alt="" id="img">
+                <p id="temperature">26 °C</p>
+            </div>
+            <span id="nuageux">Broken Clouds</span>
+        </div>
+        <div class="division1"></div>
+
+        <div class="forecstH">
+            <p class="cast-header">Prevision à venir</p>
+            <div class="templist">
+
+                <div class="prochain">
+                    <div>
+                        <p class="temps">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="prochain">
+                    <div>
+                        <p class="temps">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="prochain">
+                    <div>
+                        <p class="temps">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="prochain">
+                    <div>
+                        <p class="temps">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+                <div class="prochain">
+                    <div>
+                        <p class="temps">8:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Light Rain</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="forecstD">
+        <div class="division2"></div>
+        <p class="cast-header"> prochaines prévisions sur 4 jours</p>
+        <div class="weekF">
+
+            <div class="jourF">
+                <p class="date">Tue Jan 10 2023</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="jourF">
+                <p class="date">Wed Jan 11 2023</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="jourF">
+                <p class="date">Thu Jan 12 2023</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="jourF">
+                <p class="date">Fri Jan 13 2023</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
